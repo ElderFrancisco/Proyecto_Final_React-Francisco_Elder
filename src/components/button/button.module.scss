@@ -1,0 +1,20 @@
+@import '../../_colores.scss';
+
+.boton {
+  a {
+    background-color: $color-negro;
+    border: none;
+    border-radius: 20px;
+    color: $color-azul;
+    margin-bottom: 1%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      color: $color-blanco;
+    }
+    text-decoration: none;
+  }
+}

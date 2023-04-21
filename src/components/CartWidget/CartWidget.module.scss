@@ -1,0 +1,16 @@
+@import '../../_colores.scss';
+
+.cartWidget {
+  display: flex;
+  flex-direction: row;
+  background-color: $color-azul;
+  padding: 3px;
+  border-radius: 100px;
+  img {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  span {
+    margin-left: 6px;
+  }
+}

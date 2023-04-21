@@ -1,0 +1,33 @@
+@import '../../_colores.scss';
+.Navbar {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-negro;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+
+  h1 {
+    margin: 0%;
+
+    a {
+      text-decoration: none;
+      color: $color-azul;
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-evenly;
+    li {
+      margin-left: 15px;
+      a {
+        text-decoration: none;
+        color: $color-azul;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
