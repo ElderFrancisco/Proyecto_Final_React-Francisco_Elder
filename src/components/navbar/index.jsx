@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to={'/contacto'}>contacto</Link>
         </li>
       </ul>
-      <CartWidget />
+      <CartWidget itemCount={0} />
     </div>
   );
 };
