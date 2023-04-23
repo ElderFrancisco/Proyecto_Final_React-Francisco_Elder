@@ -1,5 +1,7 @@
+import ItemList from '../../components/itemList';
+
 const Catalogo = () => {
-  return <div>Catalogo</div>;
+  return <ItemList />;
 };
 
 export default Catalogo;
